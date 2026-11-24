@@ -1,0 +1,2 @@
+Source: https://github.com/Unity-Technologies/skills, commit 8974588c0d76745c7eb9bee530b4053451bfc1aa
+Kept (5 of 38): unity-cli, create-ui, fix-3d-physics-collisions, project-auditor-fixes, urp-postprocessing. Others can be restored from the same commit.
