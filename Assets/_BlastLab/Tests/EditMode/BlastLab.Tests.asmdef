@@ -1,0 +1,28 @@
+{
+    "name": "BlastLab.Tests",
+    "rootNamespace": "BlastLab.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "BlastLab.Domain",
+        "BlastLab.Application",
+        "BlastLab.Simulation",
+        "BlastLab.Presentation",
+        "BlastLab.Infrastructure"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

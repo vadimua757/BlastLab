@@ -1,0 +1,14 @@
+{
+    "name": "BlastLab.Presentation",
+    "rootNamespace": "BlastLab.Presentation",
+    "references": ["BlastLab.Application","BlastLab.Simulation","BlastLab.Domain"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
