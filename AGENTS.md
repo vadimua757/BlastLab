@@ -10,3 +10,13 @@
 - Межі симуляції: тільки абстрактні ігрові ефекти. Жодних реальних характеристик вибухівки/зброї, розрахунків ураження людей чи тварин.
 - Не змінювати файли поза завданням, не видаляти без пояснення. Не стверджувати, що збірка успішна, якщо її не запускали.
 - Звіт після TASK: що зроблено, файли створено/змінено, рішення, перевірки, що залишилось, як перевірити в Unity.
+
+## Іменування
+- Namespace = назва asmdef (`BlastLab.Core`, `BlastLab.Domain`…); один тип на файл, ім'я файлу = ім'я типу.
+- Private-поля: `camelCase`; публічне — `PascalCase`; ScriptableObject-конфіги — суфікс `Settings`/`Config`.
+
+## Залежності asmdef
+Domain → ∅ (noEngineReferences); Application → Domain; Simulation → Domain; Presentation → Application, Simulation, Domain; Infrastructure → Domain, Application; Core → Domain, Application; Tests (Editor) → усі. Циклів немає.
+
+## Тести
+Нова логіка в Domain/Application/Core — з EditMode-тестами в `Tests/EditMode` (NUnit). Перед завершенням TASK запускати Test Runner.
